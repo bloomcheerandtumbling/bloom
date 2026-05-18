@@ -402,45 +402,6 @@
       margin-bottom: 54px;
     }
 
-    .packet-snapshot {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 14px;
-      margin: -10px 0 30px;
-    }
-
-    .packet-snapshot article {
-      background: var(--white);
-      border: 1px solid var(--light-gray);
-      border-radius: 18px;
-      padding: 18px;
-      box-shadow: 0 8px 18px rgba(23, 32, 51, 0.05);
-    }
-
-    .packet-snapshot span {
-      display: block;
-      color: var(--pink);
-      font-size: 0.78rem;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-
-    .packet-snapshot strong {
-      display: block;
-      color: var(--navy);
-      font-size: 1.4rem;
-      letter-spacing: -0.04em;
-      line-height: 1;
-    }
-
-    .packet-snapshot p {
-      color: var(--gray);
-      font-weight: 800;
-      margin-top: 6px;
-    }
-
     .packet-list {
       margin-top: 30px;
       gap: 12px;
@@ -506,6 +467,10 @@
     .packet-list .schedule-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
+    }
+
+    .packet-list .fees-tuition-grid {
+      grid-template-columns: 1fr;
     }
 
     .packet-list .schedule-day {
@@ -1125,10 +1090,6 @@
         grid-template-columns: 1fr;
       }
 
-      .packet-snapshot {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
       .packet-list .schedule-grid,
       .packet-list .faq-answer ul {
         grid-template-columns: 1fr;
@@ -1196,10 +1157,6 @@
 
       .photo-placeholder {
         min-height: 330px;
-      }
-
-      .packet-snapshot {
-        grid-template-columns: 1fr;
       }
 
       .packet-list .faq-answer {
