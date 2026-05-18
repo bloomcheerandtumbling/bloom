@@ -494,6 +494,16 @@
       background: var(--white);
     }
 
+    .schedule-day > p {
+      padding: 18px 20px;
+      color: var(--gray);
+    }
+
+    .schedule-day > ul {
+      padding: 0 20px 20px 40px;
+      color: var(--gray);
+    }
+
     .schedule-coming-soon {
       max-width: 720px;
       background: var(--white);
