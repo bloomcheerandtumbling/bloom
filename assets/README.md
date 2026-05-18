@@ -8,7 +8,7 @@ Use this folder as the single place to swap site photos, GIFs, and videos.
 - `photos/programs/cheer-classes.webp` - Cheer Classes program card.
 - `photos/programs/tumbling.webp` - Tumbling program card.
 - `photos/programs/private-lessons.webp` - Private Lessons program card.
-- `photos/about/coach-with-athlete.webp` - About Bloom image.
+- `photos/about/private-lessons.webp` - About Bloom image.
 - `photos/about/shelley-crosthwait-headshot.webp` - Coach Shelley Crosthwait bio photo.
 
 To replace one of these, keep the same filename and drop the new image into the same folder.
