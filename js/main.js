@@ -17,10 +17,6 @@
 
     year.textContent = new Date().getFullYear();
 
-    document.querySelectorAll('.packet-list .faq-item').forEach((item) => {
-      item.classList.add('active');
-    });
-
     menuButton.addEventListener('click', () => {
       navLinks.classList.toggle('open');
     });
