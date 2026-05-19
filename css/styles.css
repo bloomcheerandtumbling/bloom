@@ -1006,8 +1006,8 @@
     .faq-category {
       margin-top: 18px;
       color: var(--pink);
-      font-size: 1rem;
-      letter-spacing: 0;
+      font-size: 1.22rem;
+      letter-spacing: -0.03em;
     }
 
     .faq-category:first-child {
