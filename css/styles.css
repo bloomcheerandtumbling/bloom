@@ -285,7 +285,7 @@
       border-radius: 18px;
       padding: 14px;
       font-weight: 800;
-      color: var(--navy);
+      color: var(--pink);
       box-shadow: 0 8px 18px rgba(23, 32, 51, 0.04);
     }
 
@@ -409,7 +409,7 @@
 
     .packet-list .faq-category {
       margin: 34px 0 14px;
-      color: var(--navy);
+      color: var(--pink);
       font-size: 1.22rem;
       letter-spacing: -0.03em;
     }
@@ -569,6 +569,18 @@
       letter-spacing: -0.03em;
     }
 
+    #pricing .card h3 {
+      color: var(--pink);
+    }
+
+    #programs .card h3 {
+      color: var(--pink);
+    }
+
+    .why-grid .card h3 {
+      color: var(--pink);
+    }
+
     .card p,
     .card li {
       color: var(--gray);
@@ -625,7 +637,7 @@
 
     #schedule .schedule-day h3 {
       background: transparent;
-      color: var(--navy);
+      color: var(--pink);
       font-size: 1.28rem;
       letter-spacing: -0.03em;
       padding: 0;
@@ -857,7 +869,7 @@
     }
 
     .coach-bio h3 {
-      color: var(--navy);
+      color: var(--pink);
       font-size: 1.65rem;
       letter-spacing: -0.03em;
       margin-bottom: 14px;
