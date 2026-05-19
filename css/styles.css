@@ -619,7 +619,27 @@
     }
 
     #schedule .schedule-day {
+      padding: 26px;
       box-shadow: 0 10px 24px rgba(23, 32, 51, 0.06);
+    }
+
+    #schedule .schedule-day h3 {
+      background: transparent;
+      color: var(--navy);
+      font-size: 1.28rem;
+      letter-spacing: -0.03em;
+      padding: 0;
+      margin-bottom: 16px;
+    }
+
+    #schedule .schedule-wrapper {
+      border: 1px solid var(--light-gray);
+      border-radius: 16px;
+    }
+
+    #schedule th {
+      background: var(--section-bg);
+      color: var(--navy);
     }
 
     .schedule-wrapper {
