@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bloomcheerandtumbling.com/sitemap.xml
+Sitemap: https://bloomcheerandtumbling.com/sitemap.xml
