@@ -462,6 +462,10 @@
       margin-top: 10px;
     }
 
+    .packet-list .faq-answer .practice-attire-list {
+      grid-template-columns: 1fr;
+    }
+
     .packet-list .faq-answer p + ul,
     .packet-list .faq-answer ul + p,
     .packet-list .faq-answer .schedule-wrapper + p,
