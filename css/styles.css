@@ -613,6 +613,17 @@
       box-shadow: 0 10px 24px rgba(23, 32, 51, 0.06);
     }
 
+    .schedule-note a {
+      color: var(--pink);
+      font-weight: 900;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .schedule-note a:hover {
+      color: var(--pink-dark);
+    }
+
     .schedule-grid {
       display: grid;
       gap: 22px;
