@@ -798,6 +798,25 @@
       padding-left: 20px;
     }
 
+    .registration-instructions {
+      max-width: 860px;
+    }
+
+    .registration-instructions ol {
+      padding-left: 22px;
+    }
+
+    .registration-instructions li + li {
+      margin-top: 10px;
+    }
+
+    .registration-instructions a:not(.button) {
+      color: var(--pink);
+      font-weight: 800;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .registration-actions {
       display: flex;
       gap: 12px;
