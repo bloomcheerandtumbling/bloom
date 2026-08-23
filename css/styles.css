@@ -110,6 +110,27 @@
       margin-bottom: 5px;
     }
 
+    .announcement-facts {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 6px 22px;
+      margin: 10px 0 12px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .announcement-facts span {
+      display: inline-flex;
+      gap: 5px;
+    }
+
+    .announcement-reassurance {
+      max-width: 720px;
+      margin: 0 auto 12px;
+      color: var(--white);
+      font-weight: 800;
+    }
+
     .announcement a {
       color: var(--white);
       font-weight: 800;
@@ -387,6 +408,75 @@
       font-size: 1.3rem;
       line-height: 1.15;
       margin-bottom: 6px;
+    }
+
+    .facility-section {
+      background: var(--white);
+    }
+
+    .facility-gallery {
+      display: grid;
+      grid-template-columns: 1.55fr 1fr;
+      gap: 20px;
+      height: clamp(460px, 42vw, 560px);
+      margin-top: 38px;
+    }
+
+    .facility-photo-stack {
+      display: grid;
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .facility-photo {
+      position: relative;
+      overflow: hidden;
+      min-height: 0;
+      margin: 0;
+      border: 1px solid var(--light-gray);
+      border-radius: 24px;
+      background: var(--section-bg);
+      box-shadow: 0 14px 34px rgba(23, 32, 51, 0.1);
+    }
+
+    .facility-photo img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 300ms ease;
+    }
+
+    .facility-photo-main {
+      height: 100%;
+      aspect-ratio: auto;
+    }
+
+    .facility-photo-stack .facility-photo {
+      aspect-ratio: auto;
+    }
+
+    .facility-photo figcaption {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      left: 14px;
+      width: fit-content;
+      max-width: calc(100% - 28px);
+      padding: 9px 13px;
+      border-radius: 999px;
+      background: rgba(23, 32, 51, 0.84);
+      color: var(--white);
+      font-size: 0.9rem;
+      font-weight: 800;
+      line-height: 1.2;
+      backdrop-filter: blur(6px);
+    }
+
+    @media (hover: hover) {
+      .facility-photo:hover img {
+        transform: scale(1.025);
+      }
     }
 
     .brand-strip {
@@ -1250,6 +1340,25 @@
     }
 
     @media (max-width: 900px) {
+      .facility-gallery {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+
+      .facility-photo-main {
+        height: auto;
+        aspect-ratio: 4 / 3;
+      }
+
+      .facility-photo-stack {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: none;
+      }
+
+      .facility-photo-stack .facility-photo {
+        aspect-ratio: 4 / 3;
+      }
+
       .hero-grid,
       .about-grid,
       .cta {
@@ -1328,6 +1437,26 @@
     }
 
     @media (max-width: 560px) {
+      .facility-gallery,
+      .facility-photo-stack {
+        grid-template-columns: 1fr;
+      }
+
+      .facility-gallery {
+        gap: 14px;
+      }
+
+      .facility-photo-stack {
+        gap: 10px;
+      }
+
+      .facility-photo,
+      .facility-photo-main,
+      .facility-photo-stack .facility-photo {
+        aspect-ratio: 4 / 3;
+        border-radius: 18px;
+      }
+
       .announcement-content {
         flex-direction: column;
         gap: 16px;
