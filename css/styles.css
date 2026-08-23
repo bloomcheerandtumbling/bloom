@@ -144,6 +144,15 @@
       color: var(--teal);
     }
 
+    .announcement .button {
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .announcement .button:hover {
+      color: var(--white);
+    }
+
     header {
       position: sticky;
       top: 0;
