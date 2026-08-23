@@ -2,6 +2,8 @@
 
 Use this folder as the single place to swap site photos, GIFs, and videos.
 
+Original, unoptimized facility photos should be placed in `../source-assets/photos/facility/`. That local folder is excluded from Git and GitHub Pages. Only optimized images used by the live site belong in this `assets` folder.
+
 ## Main Site Photos
 
 - `photos/hero/hero-pyramid.webp` - large hero image on the Home screen.
@@ -10,6 +12,9 @@ Use this folder as the single place to swap site photos, GIFs, and videos.
 - `photos/programs/private-lessons.webp` - Private Lessons program card.
 - `photos/about/private-lessons.webp` - About Bloom image.
 - `photos/about/shelley-crosthwait-headshot.webp` - Coach Shelley Crosthwait bio photo.
+- `photos/facility/competition-floor.webp` - wide view of the competition floor.
+- `photos/facility/parent-viewing-room.webp` - interior of the parent viewing room.
+- `photos/facility/viewing-room-exterior.webp` - competition floor view showing the viewing room exterior.
 
 To replace one of these, keep the same filename and drop the new image into the same folder.
 
