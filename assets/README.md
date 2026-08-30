@@ -12,9 +12,9 @@ Original, unoptimized facility photos should be placed in `../source-assets/phot
 - `photos/programs/private-lessons.webp` - Private Lessons program card.
 - `photos/about/private-lessons.webp` - About Bloom image.
 - `photos/about/shelley-crosthwait-headshot.webp` - Coach Shelley Crosthwait bio photo.
-- `photos/facility/competition-floor.webp` - wide view of the competition floor.
-- `photos/facility/parent-viewing-room.webp` - interior of the parent viewing room.
-- `photos/facility/viewing-room-exterior.webp` - competition floor view showing the viewing room exterior.
+- `photos/facility/bloom-cheer-tumbling-hot-springs-competition-floor.webp` - wide view of the competition floor.
+- `photos/facility/parent-viewing-room-bloom-cheer-tumbling.webp` - interior of the parent viewing room.
+- `photos/facility/bloom-cheer-tumbling-hot-springs-gym-floor.webp` - competition floor view showing the viewing room exterior.
 
 To replace one of these, keep the same filename and drop the new image into the same folder.
 

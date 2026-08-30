@@ -313,6 +313,19 @@
       transform: translateY(-2px);
     }
 
+    .button-map {
+      background: var(--teal);
+      color: var(--navy);
+      border-color: var(--teal);
+    }
+
+    .button-map:hover {
+      background: #18ad9e;
+      border-color: #18ad9e;
+      color: var(--navy);
+      transform: translateY(-2px);
+    }
+
     .hero {
       position: relative;
       overflow: hidden;
@@ -517,6 +530,22 @@
       text-align: center;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    #programs .section-heading {
+      max-width: 1120px;
+    }
+
+    #programs .section-heading p {
+      max-width: 730px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (min-width: 901px) {
+      #programs .section-heading h1 {
+        white-space: nowrap;
+      }
     }
 
     .section-label {
@@ -1265,6 +1294,13 @@
       margin-top: 8px;
     }
 
+    .cta-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
     .contact-card {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid rgba(255, 255, 255, 0.18);
@@ -1372,6 +1408,10 @@
       .about-grid,
       .cta {
         grid-template-columns: 1fr;
+      }
+
+      .cta-actions {
+        justify-content: flex-start;
       }
 
       .program-grid,
