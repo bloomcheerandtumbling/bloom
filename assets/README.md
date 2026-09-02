@@ -7,10 +7,10 @@ Original, unoptimized facility photos should be placed in `../source-assets/phot
 ## Main Site Photos
 
 - `photos/hero/hero-pyramid.webp` - large hero image on the Home screen.
-- `photos/programs/cheer-classes.webp` - Cheer Classes program card.
-- `photos/programs/tumbling.webp` - Tumbling program card.
+- `photos/programs/youth-cheer-tumbling-classes-hot-springs.webp` - Programs page class photo.
+- `photos/programs/youth-tumbling-skill-progression-hot-springs.webp` - Tumbling skill-progression feature.
 - `photos/programs/private-lessons.webp` - Private Lessons program card.
-- `photos/about/private-lessons.webp` - About Bloom image.
+- `photos/about/youth-tumbling-class-hot-springs.webp` - About Bloom image.
 - `photos/about/shelley-crosthwait-headshot.webp` - Coach Shelley Crosthwait bio photo.
 - `photos/facility/bloom-cheer-tumbling-hot-springs-competition-floor.webp` - wide view of the competition floor.
 - `photos/facility/parent-viewing-room-bloom-cheer-tumbling.webp` - interior of the parent viewing room.
