@@ -1,50 +1,48 @@
-﻿// Add new practice, competition, GIF, and video posts here.
-// Keep files in assets/media/[practice|competition|gifs|videos] with descriptive names.
-// Example: assets/media/practice/cartwheel-clinic-may-2026.webp
+// Add approved Bloom practice photos here.
 window.mediaPosts = [
-      {
-        title: 'Monday tumbling practice',
-        date: 'May 2026',
-        category: 'practice',
-        type: 'photo',
-        layout: 'tall',
-        src: 'assets/media/practice/monday-tumbling-practice.webp',
-        alt: 'Athlete stretching during practice',
-        caption: 'Strong shapes, focused reps, and lots of confidence building.'
-      },
-      {
-        title: 'Competition day smiles',
-        date: 'April 2026',
-        category: 'competition',
-        type: 'photo',
-        src: 'assets/media/competition/competition-day-smiles.webp',
-        alt: 'Team celebrating together',
-        caption: 'A proud weekend for athletes, families, and coaches.'
-      },
-      {
-        title: 'New skill celebration',
-        date: 'April 2026',
-        category: 'practice',
-        type: 'gif',
-        src: 'assets/media/gifs/new-skill-celebration.webp',
-        alt: 'Animated celebration moment',
-        caption: 'Use GIFs for quick moments that feel fun and alive.'
-      },
-      {
-        title: 'Showcase routine clip',
-        date: 'March 2026',
-        category: 'competition',
-        type: 'video',
-        src: 'assets/media/videos/showcase-routine-clip.mp4',
-        caption: 'Drop in short MP4 clips from showcases, routines, and practices.'
-      },
-      {
-        title: 'Jump technique work',
-        date: 'March 2026',
-        category: 'practice',
-        type: 'photo',
-        src: 'assets/media/practice/jump-technique-work.webp',
-        alt: 'Athlete jumping in training space',
-        caption: 'Small corrections add up to big gains over the season.'
-      }
+  {
+    title: 'Confidence in motion',
+    date: 'September 2026',
+    category: 'practice',
+    type: 'photo',
+    src: 'assets/photos/hero/beginner-tumbling-practice-hot-springs.webp',
+    alt: 'Young athlete building confidence during beginner tumbling practice',
+    caption: 'Balance, coordination, and confidence grow with every repetition.'
+  },
+  {
+    title: 'Supportive coaching',
+    date: 'September 2026',
+    category: 'practice',
+    type: 'photo',
+    src: 'assets/photos/about/supportive-youth-tumbling-coach-hot-springs.webp',
+    alt: 'Coach encouraging young athletes during beginner tumbling practice',
+    caption: 'Patient instruction helps every athlete feel supported as they learn.'
+  },
+  {
+    title: 'Learning together',
+    date: 'September 2026',
+    category: 'practice',
+    type: 'photo',
+    src: 'assets/photos/about/youth-tumbling-class-hot-springs.webp',
+    alt: 'Young athletes smiling and encouraging one another during tumbling class',
+    caption: 'Practice is even better when athletes encourage and celebrate one another.'
+  },
+  {
+    title: 'Move, learn, and grow',
+    date: 'September 2026',
+    category: 'practice',
+    type: 'photo',
+    src: 'assets/photos/programs/youth-cheer-tumbling-classes-hot-springs.webp',
+    alt: 'Young athletes enjoying a group cheer and tumbling class',
+    caption: 'Group classes bring together movement, energy, and plenty of fun.'
+  },
+  {
+    title: 'Building skills step by step',
+    date: 'September 2026',
+    category: 'practice',
+    type: 'photo',
+    src: 'assets/photos/programs/youth-tumbling-skill-progression-hot-springs.webp',
+    alt: 'Young athletes practicing handstands with a tumbling coach nearby',
+    caption: 'Safe progressions help athletes develop strength, control, and confidence.'
+  }
 ];
