@@ -72,12 +72,7 @@
       article.innerHTML = `
         ${media}
         <div class="media-content">
-          <div class="media-meta">
-            <span class="media-tag">${post.category}</span>
-            <span>${post.date}</span>
-          </div>
-          <h3>${post.title}</h3>
-          <p>${post.caption}</p>
+          <time class="media-date">${post.date}</time>
         </div>
       `;
 

@@ -1283,6 +1283,14 @@
       padding: 16px;
     }
 
+    .media-date {
+      display: block;
+      color: var(--gray);
+      font-size: 0.9rem;
+      font-weight: 800;
+      text-align: center;
+    }
+
     .media-meta {
       display: flex;
       align-items: center;
