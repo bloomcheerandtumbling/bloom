@@ -44,7 +44,7 @@
 
       link.addEventListener('click', (event) => {
         event.preventDefault();
-        alert('Online registration is coming soon. Please contact Bloom Cheer & Tumbling for help booking a class.');
+        alert('Please visit our registration page to enroll online, or contact Bloom Cheer & Tumbling for help booking a class.');
       });
     });
 
