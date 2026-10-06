@@ -51,6 +51,82 @@
       margin: 0 auto;
     }
 
+    .efa-section {
+      padding: 12px 0 40px;
+    }
+
+    .efa-callout {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding: clamp(24px, 4vw, 40px);
+      background: var(--white);
+      border: 1px solid var(--light-gray);
+      border-left: 6px solid var(--teal);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .efa-callout > div {
+      flex: 1 1 440px;
+    }
+
+    .efa-label {
+      color: var(--pink-dark);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .efa-callout h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .efa-callout .button {
+      flex-shrink: 0;
+    }
+
+    .efa-pricing-notice {
+      background: var(--white);
+      border-left: 4px solid var(--teal);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+
+    .efa-pricing-notice a,
+    .efa-faq-content a {
+      color: var(--pink-dark);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 700;
+    }
+
+    .efa-faq {
+      scroll-margin-top: 120px;
+    }
+
+    .efa-faq-content {
+      padding: 24px;
+      background: var(--white);
+      border: 1px solid var(--light-gray);
+      border-left: 4px solid var(--teal);
+      border-radius: 16px;
+    }
+
+    .efa-faq-content h4:not(:first-child) {
+      margin-top: 20px;
+    }
+
+    .efa-faq-content p {
+      margin-top: 8px;
+    }
+
     .announcement {
       position: relative;
       overflow: hidden;
