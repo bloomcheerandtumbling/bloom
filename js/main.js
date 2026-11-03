@@ -67,13 +67,10 @@
       const media =
         post.type === 'video'
           ? `<video controls preload="metadata" src="${post.src}"></video>`
-          : `<img src="${post.src}" alt="${post.alt || post.title}" loading="lazy" />`;
+          : `<img src="${post.src}" alt="${post.alt || post.title}" loading="lazy" decoding="async" />`;
 
       article.innerHTML = `
         ${media}
-        <div class="media-content">
-          <time class="media-date">${post.date}</time>
-        </div>
       `;
 
       return article;
