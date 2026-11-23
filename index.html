@@ -92,7 +92,21 @@
     gtag('config', 'G-JEN015XNBV');
   </script>
   <link rel="stylesheet" href="css/styles.css?v=20261005-efa" />
+  <style>
+    .holiday-notice { position: fixed; inset: 0; margin: auto; width: min(90%, 460px); height: fit-content; border: 0; border-radius: 20px; padding: 2.25rem; text-align: center; color: #173c3b; box-shadow: 0 20px 60px rgba(0, 0, 0, .25); }
+    .holiday-notice::backdrop { background: rgba(15, 38, 38, .65); }
+    .holiday-notice h2 { margin: .4rem 0 1rem; font-size: 1.8rem; }
+    .holiday-notice p { line-height: 1.6; }
+    .holiday-notice .holiday-label { color: #a05b33; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; }
+    .holiday-notice button { margin-top: .75rem; cursor: pointer; }
+  </style>
 </head><body>
+  <dialog class="holiday-notice" id="holidayNotice" aria-labelledby="holidayNoticeTitle" aria-describedby="holidayNoticeMessage">
+    <p class="holiday-label">Holiday announcement</p>
+    <h2 id="holidayNoticeTitle">Closed for Thanksgiving</h2>
+    <p id="holidayNoticeMessage">Bloom Cheer &amp; Tumbling is closed this week for the Thanksgiving holidays. We wish you and your family a wonderful Thanksgiving!</p>
+    <form method="dialog"><button class="button button-primary" autofocus>Close</button></form>
+  </dialog>
   <header>
     <div class="container nav">
       <a href="./" class="logo" aria-label="Bloom Cheer & Tumbling home">
@@ -266,6 +280,15 @@
     </div>
   </footer>
 
+  <script>
+    // Hide the announcement at 8:00 a.m. Central Time on November 29.
+    const holidayNotice = document.getElementById('holidayNotice');
+    const holidayNoticeRemaining = Date.parse('2026-11-29T14:00:00Z') - Date.now();
+    if (holidayNoticeRemaining > 0) {
+      holidayNotice.showModal();
+      setTimeout(() => holidayNotice.close(), holidayNoticeRemaining);
+    }
+  </script>
   <script src="js/media.js"></script>
   <script src="js/main.js"></script></body>
 </html>
